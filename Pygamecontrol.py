@@ -17,7 +17,7 @@ def rotate(degrees, item, centered=True_or_False, SURFACE): #item must be a surf
    if centered == False:
       rotated_surface = pygame.transform.rotate(surface, angle)
       rect = rotated_surface.get_rect()
-      SCREEN.blit(rotated_surface, (rect.x, rect.y))
+      SURFACE.blit(rotated_surface, (rect.x, rect.y))
 def onclick(what_to_do) # must be placed under the command: for event in pygame.event.get():
    if event.type == pygame.event.MOUSEBUTTONDOWN and event.type == pygame.event.MOUSEBUTTONUP:
       what_to_do
