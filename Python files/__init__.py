@@ -7,8 +7,8 @@ setuptools.setup(
     name="Pygame-control", # Replace with your own username
     version="0.0.1",
     author="Zain Khan",
-    author_email="zainkhq432@outlook.com",
-    description="Some code to be able to control pygame",
+    author_email="zainkh1432@outlook.com",
+    description="Some code to be able to control pygame objects",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/zai1208/Pygamecontrol",
