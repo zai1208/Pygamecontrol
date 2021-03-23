@@ -30,9 +30,9 @@ def onmouseup(what_to_do): # extras are same as above function
 def onkey(what_to_do, which_key, up_or_down): # extras are same as above function
    if up_or_down == "Up": 
       if event.type == pygame.event.KEYUP:
-         if pygame.event.key =  which_key:
+         if pygame.event.key == which_key:
             what_to_do
    if up_or_down == "Down":
       if event.type == pygame.event.KEYDOWN:
-         if pygame.event.key = which_key:
+         if pygame.event.key == which_key:
             what_to_do
